@@ -1,0 +1,219 @@
+/* 公共样式 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: #313131;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94px;
+    background: #fff;
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    float: left;
+    padding-top: 16px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    float: left;
+    color: #333;
+    margin-left: 50px;
+    line-height: 94px;
+}
+
+.nav-list .active a {
+    color: #ff3232
+}
+
+.nav-list li :hover {
+    color: #ff3232;
+}
+
+/* banner */
+.banner-wrap {
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 94px;
+    font-size: 0;
+}
+
+.banner-wrap img {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 70px;
+    background: #333;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-nav li {
+    position: relative;
+    color: #ccc;
+    float: left;
+    color: #ccc;
+    font-size: 14px;
+    margin: 0 14px;
+}
+
+.footer-nav li::after {
+    position: absolute;
+    top: 7px;
+    right: -15px;
+    content: '';
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+}
+
+.footer-nav li:last-child::after {
+    display: none
+}
+
+.footer-nav a {
+    color: #ccc;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-logo p {
+    margin-top: 22px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+.footer-top .qrcode {
+    margin-left: 100px;
+    text-align: center;
+}
+
+.footer-top .qrcode img {
+    width: 90px;
+    height: 90px;
+}
+
+.footer-top .qrcode p {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-phone {
+    float: right;
+    margin-right: 10px;
+    min-height: 180px;
+}
+
+.footer-phone .phone-number {
+    text-align: right;
+    color: #ebebeb;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer-phone p {
+    color: #ebebeb;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
+
+.footer-nav a:hover {
+    color: #ff3232;
+}
+
+/* 合作伙伴 */
+.friend {
+    background: #f8f8f8;
+    padding-top: 50px;
+}
+
+.friend h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal
+}
+
+.friend ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.friend ul li {
+    width: 148px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    display: inline-block;
+    border: 1px solid #eee;
+}
+
+.friend ul li img {
+    width: 100%;
+    height: 100%;
+}
