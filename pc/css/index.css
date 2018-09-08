@@ -1,0 +1,101 @@
+.mian-title {
+    color: #303030;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mian-title:after {
+    background: none repeat scroll 0 0 #303030;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 100px;
+}
+
+/* 解决问题 */
+.service-wrap {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.service-block {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.service-con .service-block:last-child {
+    margin-right: 0;
+}
+
+.service-con .service-block .service-head-img {
+    width: 360px;
+    height: 200px;
+}
+.service-block .service-txt a:hover dl dt{
+    color: red;
+}
+.service-block .service-txt dl {
+    margin: 18px 0;
+}
+.service-block .service-txt dl dt{
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    line-height: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-block .service-txt dl dt::after{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    content: '';
+    width: 5px;
+    height: 20px;
+    background: #ff8420;
+    border-radius: 2.5px;
+    display: block;
+    float: left;
+}
+.service-block .service-txt dl dd{
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #666;
+}
+/* 合作伙伴 */
+.friend {
+    background: #f8f8f8;
+    padding-top: 50px;
+}
+
+.friend h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal
+}
+
+.friend ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.friend ul li {
+    width: 148px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    display: inline-block;
+    border: 1px solid #eee;
+}
+
+.friend ul li img {
+    width: 100%;
+    height: 100%;
+}
