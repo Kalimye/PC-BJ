@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Microsoft YaHei';
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    min-height: 500px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft Yahei", "Hiragino Sans GB", arial !important;
+    -webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
@@ -40,6 +46,7 @@ li {
 
 /* header */
 header {
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
@@ -185,35 +192,4 @@ footer .copyright {
 
 .footer-nav a:hover {
     color: #ff3232;
-}
-
-/* 合作伙伴 */
-.friend {
-    background: #f8f8f8;
-    padding-top: 50px;
-}
-
-.friend h2 {
-    font-size: 20px;
-    color: #333;
-    font-weight: normal
-}
-
-.friend ul {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.friend ul li {
-    width: 148px;
-    height: 70px;
-    margin-right: 20px;
-    margin-bottom: 24px;
-    display: inline-block;
-    border: 1px solid #eee;
-}
-
-.friend ul li img {
-    width: 100%;
-    height: 100%;
 }
