@@ -115,6 +115,35 @@
 .tutor-team .main-title:after {
     background:#fff;
 }
+/* 优质干货 */
+.excellent-block{
+    padding: 60px 0;
+}
+.excellent-btn ul{
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+.excellent-btn ul li{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    padding-bottom: 20px;
+    margin: 0 25px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.excellent-btn ul li:hover{
+    color: #ffa000;
+    border-bottom: 2px solid #ffa000;
+}
+.excellent-btn ul li a{
+    color: inherit;
+}
 /* 合作伙伴 */
 .friend {
     padding-top: 50px;
