@@ -1,4 +1,4 @@
-.mian-title {
+.main-title {
     color: #303030;
     font-size: 20px;
     font-weight: bold;
@@ -6,15 +6,45 @@
     text-transform: uppercase;
 }
 
-.mian-title:after {
-    background: none repeat scroll 0 0 #303030;
+.main-title:after {
+    background: #303030;
     content: "";
     display: block;
     height: 2px;
     margin: 20px auto;
     width: 100px;
 }
-
+.tutor-intro-con ul{
+    text-align: center;
+}
+.tutor-intro-con ul li{
+    position: relative;
+    display: inline-block;
+    width: 253px;
+    height: 253px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.tutor-intro-con ul li .tutor-txt{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    transition: bottom .3s;
+    background: rgba(0, 0, 0, .4);
+}
+.tutor-intro-con ul li:hover .tutor-txt{
+    bottom: 0;
+}
+.tutor-intro-con ul li .tutor-txt:hover a{
+    color: #ff3232;
+}
+.honor-block{
+    font-size: 0;
+}
 /* 解决问题 */
 .service-wrap {
     padding: 60px 0;
@@ -69,10 +99,27 @@
     margin-bottom: 30px;
     color: #666;
 }
+/* 导师团队 */
+.tutor-team{
+    width: 100%;
+    height: 680px;
+    overflow: auto;
+    background: url("../images/index/tutor-team-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.tutor-team .main-title {
+    margin-top: 110px;
+    margin-bottom: 88px;
+    color: #fff;
+}
+.tutor-team .main-title:after {
+    background:#fff;
+}
 /* 合作伙伴 */
 .friend {
-    background: #f8f8f8;
     padding-top: 50px;
+    overflow: hidden;
+    background: #f8f8f8;
 }
 
 .friend h2 {
