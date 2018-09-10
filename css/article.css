@@ -1,1 +1,93 @@
-﻿
+﻿.article-wrap {
+    width: 840px;
+    float: left;
+}
+
+.side-bar {
+    width: 320px;
+    float: right;
+}
+
+/* 面包屑导航 */
+.breadcrumbs-nav {
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+.breadcrumbs-nav a {
+    color: #303030;
+}
+
+.breadcrumbs-nav i {
+    margin: 0 10px;
+    font-style: normal;
+}
+
+.breadcrumbs-nav-title {
+    color: #303030;
+    display: inline-block;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: auto;
+}
+
+/* 文章内容 */
+.art-title {
+    font-size: 32px;
+    color: #303030;
+    font-weight: normal;
+}
+
+.meta-content {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.art-intro {
+    border-left: #fbcb7b 4px solid;
+    background: #f3f3f3;
+    padding: 26px 30px;
+    margin: 40px 0;
+    font-size: 18px;
+    color: #303030;
+    line-height: 30px;
+}
+
+.article-con p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #303030;
+    line-height: 36px;
+}
+
+.article-con img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* 图片外面的div */
+.art-img {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 文章中的所有图片 */
+.article-con img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* 文章内的微信截图大小 */
+.art-wxpic img {
+    width: 400px;
+}
+
+/* 文章内的图片标题大小 */
+.art-imgtitle img {
+    height: 80px;
+}
