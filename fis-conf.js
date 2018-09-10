@@ -16,7 +16,7 @@ fis.match('*.css', {
 // });
 
 // 资源定位
-fis.match('{images,css,js}/**', {
+fis.match('{images,css,js,article}/**', {
   release: '/xy/res/$0'
 });
 
