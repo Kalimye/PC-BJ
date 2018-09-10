@@ -44,6 +44,10 @@ li {
     margin: 0 auto;
 }
 
+.main {
+    margin-top: 94px;
+}
+
 /* header */
 header {
     z-index: 999;
@@ -85,7 +89,7 @@ header {
 .banner-wrap {
     width: 1500px;
     margin: 0 auto;
-    margin-top: 94px;
+    /* margin-top: 94px; */
     font-size: 0;
 }
 
