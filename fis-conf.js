@@ -16,9 +16,9 @@ fis.match('*.css', {
 // });
 
 // 资源定位
-fis.match('{images,css,js,article}/**', {
-  release: '/xy/res/$0'
-});
+// fis.match('{pc}/**', {
+//   release: '/xy/$0'
+// });
 
 // fis.match('::packager', {
 //   spriter: fis.plugin('csssprites')
