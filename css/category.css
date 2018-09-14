@@ -1,0 +1,104 @@
+.category-left {
+    float: left;
+}
+
+.category-con {
+    float: left;
+    margin-bottom: 80px;
+}
+
+.category-sidebar {
+    float: right;
+}
+
+.category-con ul {
+    width: 780px;
+}
+
+.category-con ul li {
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 1px dashed #e4e4e4;
+    overflow: hidden;
+}
+
+.category-con a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.category-con ul li img {
+    float: left;
+    width: 240px;
+    height: 170px;
+}
+
+.category-con ul li .con {
+    float: right;
+    width: 510px;
+}
+
+.category-con ul li h3 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #303030;
+    font-weight: normal;
+}
+
+.category-con ul li:hover h3 {
+    color: red;
+}
+
+.category-con ul li .con div {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #999;
+}
+
+.category-con ul li .con div .user-name {
+    margin-right: 30px;
+}
+
+.category-con ul li .con p {
+    margin-top: 14px;
+    color: #666;
+    font-size: 14px;
+    line-height: 25px;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.category-con ul li:last-child {
+    border-bottom: none;
+}
+
+.category-left {
+    width: 160px;
+    margin-top: 20px;
+}
+
+.category-left ul li {
+    position: relative;
+    line-height: 55px;
+    color: #303030;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.category-left ul li a {
+    display: block;
+    width: 140px;
+    color: #313131;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+}
+.category-left ul li.active a {
+    background: red;
+    color: #fff;
+}
+.category-left ul li:hover a{
+    background: red;
+    color: #fff;
+}
