@@ -1,3 +1,8 @@
+.nav-list .category a{
+    color: red;
+}
+
+
 .category-left {
     float: left;
 }

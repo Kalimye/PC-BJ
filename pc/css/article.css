@@ -1,4 +1,9 @@
-﻿.article-wrap {
+﻿.nav-list .acticle a{
+    color: red;
+}
+
+
+.article-wrap {
     width: 840px;
     float: left;
 }
