@@ -8,8 +8,9 @@
 
     // 设置广告位图片
     var adImg = document.createElement("img");
-    adImg.src = "/images/article/ad/ad.jpg";
+    //adImg.src = "/pc/images/article/common/ad.jpg";
     adImg.alt = "广告位";
+    adImg.src = "/pc/images/article/public/ad.jpg";
 
     // 图片插入
     ad.appendChild(adImg);
