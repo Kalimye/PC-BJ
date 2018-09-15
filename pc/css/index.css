@@ -190,6 +190,7 @@
 }
 .excellent-con-list.active{
     display: block;
+    overflow: hidden;
 }
 .excellent-con-list ul li:nth-child(even) {
     float: right;
