@@ -1,6 +1,7 @@
-.nav-list .category a{
+.nav-list .category a {
     color: red;
 }
+
 
 
 .category-left {
@@ -99,11 +100,13 @@
     background: #fff;
     border-radius: 50px;
 }
+
 .category-left ul li.active a {
     background: red;
     color: #fff;
 }
-.category-left ul li:hover a{
+
+.category-left ul li:hover a {
     background: red;
     color: #fff;
 }

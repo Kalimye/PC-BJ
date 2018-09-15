@@ -34,8 +34,6 @@ phone_number.forEach(item => {
 
 // 页面导航
 
-
-
 var navArray = [{
         name: "首页",
         class: "index",
@@ -75,3 +73,42 @@ navArray.forEach(item => {
     nav_item.appendChild(nav_a);
     nav.appendChild(nav_item);
 });
+
+// 优质干货部分
+
+// var article = [
+//     "全部文章",
+//     "感情淡化",
+//     "婚姻破裂",
+//     "恋人劈腿",
+//     "矛盾积累",
+//     "挽回干货",
+//     "挽回干货",
+//     "异地恋情"
+// ]
+var article = [{
+        name: "全部文章",
+        link: "/pc/category/category-00.html"
+    }, {
+        name: "感情淡化",
+        link: "/pc/category/category-01.html"
+    }, {
+        name: "婚姻破裂",
+        link: "/pc/category/category-02.html"
+    }, {
+        name: "恋人劈腿",
+        link: "/pc/category/category-03.html"
+    }, {
+        name: "矛盾积累",
+        link: "/pc/category/category-04.html"
+    },{
+        name: "挽回干货",
+        link: "/pc/category/category-05.html"
+    },{
+        name: "挽回干货",
+        link: "/pc/category/category-06.html"
+    },{
+        name: "异地恋情",
+        link: "/pc/category/category-07.html"
+    }
+]
