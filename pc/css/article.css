@@ -1,7 +1,9 @@
 ﻿.nav-list .category a {
     color: red;
 }
-
+.red{
+    color: red!important;
+}
 
 .article-wrap {
     width: 840px;
