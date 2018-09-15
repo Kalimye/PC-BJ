@@ -52,3 +52,6 @@ switch (pathname) {
         btn_item[1].classList.add("active");
         break;
 }
+
+
+
