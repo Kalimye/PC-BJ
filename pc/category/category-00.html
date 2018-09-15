@@ -116,13 +116,13 @@
                     <p>北京小鱼果果有限公司</p>
                 </div>
                 <div class="qrcode qrcode-01 fl">
-					<img src="/pc/images/common/qrcode-footer.png" alt="小鱼情感APP">
-					<p>小鱼情感APP</p>
-				</div>
-				<div class="qrcode qrcode-02 fl">
-					<img src="/pc/images/common/qrcode-footer.png" alt="小鱼情感APP">
-					<p>小鱼情感急救室公众号</p>
-				</div>
+                    <img src="/pc/images/common/qrcode-footer.png" alt="小鱼情感APP">
+                    <p>小鱼情感APP</p>
+                </div>
+                <div class="qrcode qrcode-02 fl">
+                    <img src="/pc/images/common/qrcode-footer.png" alt="小鱼情感APP">
+                    <p>小鱼情感急救室公众号</p>
+                </div>
                 <div class="footer-phone">
                     <div class="phone-number">400-087-2113</div>
                     <p>24小时免费热线</p>
@@ -148,4 +148,12 @@
     </footer>
     <script src="/pc/js/common.js"></script>
     <script src="/pc/js/category.js"></script>
+    <script>
+        var categoryWrap = document.querySelector(".category-con ul");
+        art_info.forEach(item => {
+            item.list.forEach(content => {
+                console.log(content.title);
+            })
+        });
+    </script>
 </body>
