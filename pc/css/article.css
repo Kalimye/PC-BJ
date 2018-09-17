@@ -4,7 +4,9 @@
 .red{
     color: red!important;
 }
-
+.center{
+    text-align: center!important;
+}
 .article-wrap {
     width: 840px;
     float: left;
