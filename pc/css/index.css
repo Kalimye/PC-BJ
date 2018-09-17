@@ -195,7 +195,9 @@
 .excellent-con-list ul li:nth-child(even) {
     float: right;
 }
-
+.excellent-con-list ul li:nth-child(5){
+    /* display: none; */
+}
 .excellent-con-list ul li:hover h2 {
     color: red;
 }
