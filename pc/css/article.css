@@ -57,6 +57,7 @@
     color: #999;
     font-size: 14px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .meta-content .meta-author{
@@ -84,11 +85,11 @@
 .article-con .art-intro p{
     text-indent: inherit;
 }
-.art-intro p:nth-child(1) i{
+.art-intro p:nth-child(n) i{
     background: url("/pc/images/article/public/A.png") no-repeat center center;
     background-size: 100% 100%;
 }
-.art-intro p:nth-child(2) i{
+.art-intro p:nth-child(2n) i{
     background: url("/pc/images/article/public/B.png") no-repeat center center;
     background-size: 100% 100%;
 }
