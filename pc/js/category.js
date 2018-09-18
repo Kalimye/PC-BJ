@@ -54,56 +54,48 @@ switch (pathname) {
         break;
 }
 
-var category_con = document.querySelector(".category-con ul");
-
-// art_info.forEach(item => {
-//     console.log(item);
-// });
-
-
 var categoryWrap = document.querySelector(".category-con ul");
-art_info.forEach(item => {
-    item.list.forEach(content => {
-        var list = document.createElement("li");
-        var link = document.createElement("a");
-        link.href = content.href;
-        var imgWrap = document.createElement("div");
-        imgWrap.classList.add("img");
-        var img = document.createElement("img");
-        img.src = content.cover;
-        imgWrap.appendChild(img);
-        // 左侧图片OK
 
-        var con_r = document.createElement("div");
-        con_r.classList.add("con");
-        var title = document.createElement("h3");
-        title.textContent = content.title;
+function toArtList(content) {
+    var list = document.createElement("li");
+    var link = document.createElement("a");
+    link.href = content.href;
+    var imgWrap = document.createElement("div");
+    imgWrap.classList.add("img");
+    var img = document.createElement("img");
+    img.src = content.cover;
+    imgWrap.appendChild(img);
+    // 左侧图片OK
 
-        var infoWrap = document.createElement("div");
-        var author = document.createElement("span");
-        author.classList.add("user-name");
-        author.textContent = "小鱼情感";
-        var date = document.createElement("span");
-        date.textContent = content.date;
+    var con_r = document.createElement("div");
+    con_r.classList.add("con");
+    var title = document.createElement("h3");
+    title.textContent = content.title;
 
-        infoWrap.appendChild(author);
-        infoWrap.appendChild(date);
+    var infoWrap = document.createElement("div");
+    var author = document.createElement("span");
+    author.classList.add("user-name");
+    author.textContent = "小鱼情感";
+    var date = document.createElement("span");
+    date.textContent = content.date;
 
-        var description = document.createElement("p");
-        description.textContent = content.description;
+    infoWrap.appendChild(author);
+    infoWrap.appendChild(date);
 
-
-        con_r.appendChild(title);
-        con_r.appendChild(infoWrap);
-        con_r.appendChild(description);
+    var description = document.createElement("p");
+    description.textContent = content.description;
 
 
-        link.appendChild(imgWrap);
-        link.appendChild(con_r);
+    con_r.appendChild(title);
+    con_r.appendChild(infoWrap);
+    con_r.appendChild(description);
 
-        // 右边完成
-        
-        list.appendChild(link);
-        categoryWrap.appendChild(list);
-    })
-});
+
+    link.appendChild(imgWrap);
+    link.appendChild(con_r);
+
+    // 右边完成
+
+    list.appendChild(link);
+    categoryWrap.appendChild(list);
+}
