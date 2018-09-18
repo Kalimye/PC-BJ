@@ -23,6 +23,7 @@ pathname = pathnameArr[pathnameArr.length - 1];
 pathname = pathname.split('.')[0];
 
 // 根据路径名字进行判断，给li加样式
+
 switch (pathname) {
     case 'category-00':
         btn_item[0].classList.add("active");
@@ -49,9 +50,60 @@ switch (pathname) {
         btn_item[7].classList.add("active");
         break;
     default:
-        btn_item[1].classList.add("active");
+        btn_item[0].classList.add("active");
         break;
 }
 
+var category_con = document.querySelector(".category-con ul");
+
+// art_info.forEach(item => {
+//     console.log(item);
+// });
 
 
+var categoryWrap = document.querySelector(".category-con ul");
+art_info.forEach(item => {
+    item.list.forEach(content => {
+        var list = document.createElement("li");
+        var link = document.createElement("a");
+        link.href = content.href;
+        var imgWrap = document.createElement("div");
+        imgWrap.classList.add("img");
+        var img = document.createElement("img");
+        img.src = content.cover;
+        imgWrap.appendChild(img);
+        // 左侧图片OK
+
+        var con_r = document.createElement("div");
+        con_r.classList.add("con");
+        var title = document.createElement("h3");
+        title.textContent = content.title;
+
+        var infoWrap = document.createElement("div");
+        var author = document.createElement("span");
+        author.classList.add("user-name");
+        author.textContent = "小鱼情感";
+        var date = document.createElement("span");
+        date.textContent = content.date;
+
+        infoWrap.appendChild(author);
+        infoWrap.appendChild(date);
+
+        var description = document.createElement("p");
+        description.textContent = content.description;
+
+
+        con_r.appendChild(title);
+        con_r.appendChild(infoWrap);
+        con_r.appendChild(description);
+
+
+        link.appendChild(imgWrap);
+        link.appendChild(con_r);
+
+        // 右边完成
+        
+        list.appendChild(link);
+        categoryWrap.appendChild(list);
+    })
+});
