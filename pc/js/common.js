@@ -232,25 +232,25 @@ var art_info = [{
             date: "2018-01-01",
             href: "/pc/article/article-04-01.html",
             cover: "/pc/images/article/cover/cover-16.png"
-        },{
+        }, {
             title: "小矛盾堆积成大问题，分手来的猝不及防",
             description: "小夏是个做事很有条理，对人对事比较严格的姑娘，什么事情都喜欢提前计划好，可刘亮不同，觉得这计划赶不上变化，没必要事事都预先安排好，因为刘亮的“变化”，导致小夏好几次被放了鸽子。",
             date: "2018-08-30",
             href: "/pc/article/article-04-02.html",
             cover: "/pc/images/article/cover/cover-17.png"
-        },{
+        }, {
             title: "“破窗效应”告诉你：小事背后隐藏分手本质",
             description: "在小鱼情感从事挽回行业多年，接触到的学员中，有60%的人是因为小事爆发争吵而分手，很多学员也疑惑为什么伴侣会因为鸡毛蒜皮的小事就毅然决然提出分手。",
             date: "2018-09-02",
             href: "/pc/article/article-04-03.html",
             cover: "/pc/images/article/cover/cover-18.png"
-        },{
+        }, {
             title: "小矛盾膨胀激化，最终引发分手，你做错了什么？",
             description: "我们两个恋爱大约有3年了，本来是准备明年夏天结婚的，那时候她送走了毕业班，压力会减小很多，也有时间来筹备婚礼。但从今年夏天开始，我们两个之间时有矛盾发生，完全没有了曾经水乳交融的那种融洽感。",
             date: "2018-09-03",
             href: "/pc/article/article-04-04.html",
             cover: "/pc/images/article/cover/cover-19.png"
-        },{
+        }, {
             title: "因为小事而分手？那是因为你不知道她忍了多久",
             description: "不少小鱼情感的学员在我们问及分手原因的时候，都说是女友太作，因为鸡毛蒜皮的小事就提了分手，其实这件小事的背后隐藏着她太久的隐忍和失望，看过了下面这两位学员的案例，可能你就对“那件分手的小事”有了新的认识。",
             date: "2018-09-04",
@@ -267,63 +267,100 @@ var art_info = [{
             date: "2018-01-22",
             href: "/pc/article/article-05-01.html",
             cover: "/pc/images/article/cover/cover-21.png"
-        },{
+        }, {
             title: "当爱情被直男癌症状击垮 我该如何挽回？",
             description: "一些在事业和财富都小有成绩的人经常会找到小鱼情感倾诉：老天将稳定富足的生活带给他们，同时也将他们的感情生活变得面目全非，很多原本如胶似漆的情侣逐渐变得感情淡漠、双方越走越远直至最后分手，而直到分手以后，很多人都还不知道问题出在哪，更不知道如何挽回，要么死缠烂打、要么冷战到底，结果最后的结局都是一样：彻底分手",
             date: "2018-01-27",
             href: "/pc/article/article-05-02.html",
             cover: "/pc/images/article/cover/cover-22.png"
-        },{
+        }, {
             title: "当心了！男人只想玩暧昧的几种表现，女生必看！",
             description: "最近有个男生主动接近她，表现得很殷勤。姑娘最怕自作多情，对号入座，就没往感情那方面考虑，只是把他的关心当做朋友的好意而已。",
             date: "2018-02-11",
             href: "/pc/article/article-05-03.html",
             cover: "/pc/images/article/cover/cover-23.png"
-        },{
+        }, {
             title: "因“依恋损伤”而分手，如何快速走出心理创伤？",
             description: "除了安全型的恋人，其它三种都不属于健康的成人依恋关系，回忆一下你在一段恋爱中的表现，如果你经常敏感多疑，无法相信另一半的话，怀疑对方会随时背叛自己，时常陷入没有安全感的恐慌状态中，这说明，你曾经在感情中遭受过一些伤害，让你产生了心理防御机制，无法真心的去信任亲密关系，因此陷入了“依恋损伤”中",
             date: "2018-03-22",
             href: "/pc/article/article-05-04.html",
             cover: "/pc/images/article/cover/cover-24.png"
-        },{
+        }, {
             title: "谈了100次恋爱屡战屡败？因为你陷入了“低自尊型恋爱”",
             description: "在心理学上，有一种解释为，你的心理状态会驱动你的言语和行为，这也是很多感情无疾而终的原因，也许你会觉得自己没什么问题，没犯什么出轨之类的原则性错误，但爱情偏偏就不眷顾你。",
             date: "2018-04-04",
             href: "/pc/article/article-05-05.html",
             cover: "/pc/images/article/cover/cover-25.png"
-        },]
+        }, ]
     }, {
         type: "06",
         category: "性格不合",
         author: "小鱼情感",
         list: [{
-            title: "新鲜感褪去后，爱情该何去何从？",
-            description: "当爱情褪去最初火热的温度，逐渐向平淡中走去，爱情究竟是走向了细水长流、返璞归真，还是“不在沉默中爆发，就在沉默中灭亡”？对于杜昊来说，他的爱情，显然是走向了后者。因为就在他和女朋友相爱的第三年零五个月后，他们和平分手了。",
-            date: "2018-02-01",
-            href: "/pc/article/article-01-01.html",
-            cover: "/pc/images/article/cover/cover-01.png"
-        }]
+            title: "面对“性格不合 对你没感觉”的分手，我该如何挽回？",
+            description: "王斌和方瑜曾是同在一个职场工作的同事，社交圈其实不太广的小斌在看到美丽贤淑的方瑜后马上就认定了对方就是自己要找的人，随后便展开了热烈的攻势，方瑜虽然第一眼看上去觉得小斌显得并不出众，但由于他诚恳的态度再加一直以来很踏实的工作作风，也很快便和小斌确定了恋爱关系，一时间甜蜜的恋情让周围所有人都艳羡不已。",
+            date: "2018-01-24",
+            href: "/pc/article/article-06-01.html",
+            cover: "/pc/images/article/cover/cover-26.png"
+        },{
+            title: "优柔寡断的男人如何改善性格成功挽回？",
+            description: "余先生这个人性格很好，平易近人，身边的朋友同事都特别喜欢他。而这样的性格也让他找到了女友。按照一般的想象，跟平和的男人在一起生活应该会平淡而幸福，虽说没有什么大的波动但贵在稳定，过过安稳的小日子。",
+            date: "2018-05-24",
+            href: "/pc/article/article-06-02.html",
+            cover: "/pc/images/article/cover/cover-27.png"
+        },{
+            title: "分手了，都怪我性格太内向了！",
+            description: "说起人的性格，首先浮现在你脑海里的，也无非就是“内向”、“外向”两种。不同的性格有各自的优势劣势，但性格本身没有高下之别。然而，我们小鱼情感曾接手的一位学员却将自己错失爱情的原因，一股脑归咎于“内向性格”，下面来看看他的情感经历吧。",
+            date: "2018-07-16",
+            href: "/pc/article/article-06-03.html",
+            cover: "/pc/images/article/cover/cover-28.png"
+        },{
+            title: "别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题",
+            description: "这可能是最烂大街的分手理由了，许多人在听到这样的话以后也会彻底丧失挽回的信心，觉得这种深层次的问题是没办法改变的。可他们却忘了应该跳出这句抽象的理由，去真正找出两人的关系当中存在的问题。",
+            date: "2018-07-24",
+            href: "/pc/article/article-06-04.html",
+            cover: "/pc/images/article/cover/cover-29.png"
+        },{
+            title: "性格偏执型恋人追求爱情完美 最终断送幸福",
+            description: "董青（女化名）是我在小鱼情感最近接触的学员，正如微信中所言，她就是爱情中的“完美主义者”。董青对待爱情有自己的一套标准，既然两个人自愿选择在一起，那么为了心中完美的爱情，严格要求男友“服从”，特别是外表形象和交友方面。",
+            date: "2018-07-26",
+            href: "/pc/article/article-06-05.html",
+            cover: "/pc/images/article/cover/cover-30.png"
+        },]
     }, {
         type: "07",
         category: "感情淡化",
         author: "小鱼情感",
         list: [{
-            title: "新鲜感褪去后，爱情该何去何从？",
-            description: "当爱情褪去最初火热的温度，逐渐向平淡中走去，爱情究竟是走向了细水长流、返璞归真，还是“不在沉默中爆发，就在沉默中灭亡”？对于杜昊来说，他的爱情，显然是走向了后者。因为就在他和女朋友相爱的第三年零五个月后，他们和平分手了。",
-            date: "2018-02-01",
-            href: "/pc/article/article-01-01.html",
-            cover: "/pc/images/article/cover/cover-01.png"
-        }]
-    }, {
-        type: "01",
-        category: "异地恋情",
-        author: "小鱼情感",
-        list: [{
-            title: "新鲜感褪去后，爱情该何去何从？",
-            description: "当爱情褪去最初火热的温度，逐渐向平淡中走去，爱情究竟是走向了细水长流、返璞归真，还是“不在沉默中爆发，就在沉默中灭亡”？对于杜昊来说，他的爱情，显然是走向了后者。因为就在他和女朋友相爱的第三年零五个月后，他们和平分手了。",
-            date: "2018-02-01",
-            href: "/pc/article/article-01-01.html",
-            cover: "/pc/images/article/cover/cover-01.png"
+            title: "异地恋分手：别把原因一味归咎给距离！",
+            description: "学员英赫（化名）和女友银河（化名）感情基础其实是很坚实的，他们俩相识于大学校园，大一就确立了恋爱关系，大学这四年，他们正经谈了好一段甜蜜纯粹的恋爱。",
+            date: "2018-01-05",
+            href: "/pc/article/article-07-01.html",
+            cover: "/pc/images/article/cover/cover-31.png"
+        },{
+            title: "两年异地恋，三个月见一面，找个小姐怎么了？",
+            description: "我和女友已经在一起五年了，但最后两年是异地恋，因为一时糊涂，我出轨了，不，也不算出轨，就是因为生理需求，找了个小姐，没想到那个小姐对我纠缠不清，最后闹得让女友知道了，说我恶心，不肯原谅我。",
+            date: "2018-02-05",
+            href: "/pc/article/article-07-02.html",
+            cover: "/pc/images/article/cover/cover-32.png"
+        },{
+            title: "异地恋是真的不容易，你看我这满满的火车票就知道了",
+            description: "林明和女友菲菲大学时就在一起了，毕业之后，林明选择去外地发展，菲菲听从父母的安排考取了当地的公务员。两人开始了异地恋，林明每次休假就会买上一张车票去看菲菲。原本以为感情深厚，任何困难都能克服。可是没想到，菲菲还是提出了分手。",
+            date: "2018-02-23",
+            href: "/pc/article/article-07-03.html",
+            cover: "/pc/images/article/cover/cover-33.png"
+        },{
+            title: "一段被包养的异地恋情，还有机会挽回吗？",
+            description: "陈熙是我的一个朋友，也是我们小鱼情感的一位学员，最近他遇到了情感问题，大半夜和我一顿倾诉，我隐约记得两个人应该才谈了不到一年的时间，怎么就要闹分手了呢？",
+            date: "2018-04-09",
+            href: "/pc/article/article-07-04.html",
+            cover: "/pc/images/article/cover/cover-34.png"
+        },{
+            title: "异地恋，到底有多煎熬？网友：累了，真的累了",
+            description: "我叫王宇，前几天和女友分手后，意外在网上看到了小鱼情感关于挽回的文章，其中的异地挽回方案戳中了我的心窝，于是我迫不及待的找到了小鱼情感挽回团队，讲述了我和女友的异地故事。",
+            date: "2018-05-18",
+            href: "/pc/article/article-05-05.html",
+            cover: "/pc/images/article/cover/cover-35.png"
         }]
     }
 ];
