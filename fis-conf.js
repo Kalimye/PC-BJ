@@ -1,7 +1,8 @@
 // 加 md5
-fis.match('*.{js,css,png,jpg,gif}', {
+fis.match('*.{js,css,}', {
   useHash: true
 });
+
 
 // 压缩资源
 fis.match('*.js', {
