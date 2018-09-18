@@ -66,6 +66,7 @@ var navArray = [{
     },
 ];
 
+// 渲染导航
 var nav = document.querySelector(".nav-list");
 navArray.forEach(item => {
     var nav_item = document.createElement("li");
@@ -80,7 +81,7 @@ navArray.forEach(item => {
 });
 
 
-// 优质干货分类部分
+// 文章分类标题部分
 var article = [{
         name: "全部文章",
         link: "/pc/category/category-00.html"
