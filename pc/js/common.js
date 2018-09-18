@@ -106,7 +106,7 @@ var article = [{
         link: "/pc/category/category-05.html"
     },
     {
-        name: "挽回干货",
+        name: "性格不合",
         link: "/pc/category/category-06.html"
     },
     {
