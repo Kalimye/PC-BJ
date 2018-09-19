@@ -12,6 +12,10 @@ fis.match('*.css', {
   optimizer: fis.plugin('clean-css')
 });
 
+fis.match('*.{png,jpg,jpeg}', {
+  optimizer: fis.plugin('png-compressor')
+});
+
 // fis.match('*.png', {
 //   optimizer: fis.plugin('png-compressor')
 // });
