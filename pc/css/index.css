@@ -1,9 +1,10 @@
-.nav-list .index a{
+.nav-list .index a {
     color: red;
 }
 
 .main-title {
-    color: #303030;
+    padding-bottom: 20px;
+    color: #313131;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -19,6 +20,70 @@
     width: 100px;
 }
 
+/* 品牌宣语 */
+.brand-wrap {
+    height: 600px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.brand-wrap .main-title {
+    padding-top: 50px;
+}
+
+.brand-wrap .brand-slogan {
+    font-size: 18px;
+    color: #313131;
+}
+
+.brand-wrap h2 {
+    color: #ffa000;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.brand-wrap .yuyu {
+    width: 700px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.brand-wrap .yuyu p {
+    color: #313131;
+    font-size: 16px;
+    line-height: 50px
+}
+
+/* 公司成就 */
+.achieve-wrap {
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background: url("/pc/images/index/achieve-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.achieve-wrap .main-title {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.achieve-wrap .main-title:after {
+    background: #fff;
+}
+
+.achieve-wrap .con {
+    margin-top: 50px;
+}
+
+.achieve-wrap .text p {
+    line-height: 48px;
+}
+
+/* 导师团队 */
 .tutor-intro-con ul {
     text-align: center;
 }
@@ -27,26 +92,28 @@
     position: relative;
     display: inline-block;
     width: 253px;
-    height: 253px;
+    height: 302px;
     margin: 0 10px;
     overflow: hidden;
 }
 
 .tutor-intro-con ul li .tutor-txt {
     position: absolute;
-    bottom: -50px;
+    bottom: 0px;
     left: 0;
     width: 100%;
     height: 50px;
+    line-height: 50px;
     color: #fff;
     text-align: center;
+    font-weight: bold;
     transition: bottom .3s;
-    background: rgba(0, 0, 0, .4);
+    background: #fff;
 }
 
-.tutor-intro-con ul li:hover .tutor-txt {
+/* .tutor-intro-con ul li:hover .tutor-txt {
     bottom: 0;
-}
+} */
 
 .tutor-intro-con ul li .tutor-txt:hover a {
     color: #ff3232;
@@ -60,9 +127,9 @@
     max-width: 100%;
 }
 
-/* 解决问题 */
+/* 服务范围 */
 .service-wrap {
-    padding: 60px 0;
+    padding: 40px 0;
     overflow: hidden;
 }
 
@@ -82,56 +149,49 @@
 }
 
 .service-block .service-txt a:hover dl dt {
-    color: red;
+    color: #ffa000;
 }
 
 .service-block .service-txt dl {
-    margin: 18px 0;
+    margin-top: 50px
 }
 
 .service-block .service-txt dl dt {
-    position: relative;
-    margin-bottom: 12px;
-    padding-left: 15px;
+    margin-bottom: 20px;
     line-height: 20px;
+    text-align: center;
+
     color: #333;
     font-size: 18px;
     font-weight: bold;
 }
 
-.service-block .service-txt dl dt::after {
-    position: absolute;
-    top: 2px;
-    left: 0;
-    content: '';
-    width: 5px;
-    height: 20px;
-    background: #ff8420;
-    border-radius: 2.5px;
-    display: block;
-    float: left;
+.service-block .service-txt dl dt span {
+    display: inline-block;
+    width: 24px;
+    border-bottom: 3px solid #ffa000;
 }
 
 .service-block .service-txt dl dd {
-    text-align: left;
-    font-size: 14px;
-    line-height: 30px;
     margin-bottom: 30px;
+    line-height: 30px;
     color: #666;
+    text-align: center;
+    font-size: 14px;
 }
 
-/* 导师团队 */
+/* 专家团队 */
 .tutor-team {
     width: 100%;
     height: 680px;
     overflow: auto;
-    background: url("../images/index/tutor-team-bg.png") no-repeat center center;
+    background: url("/pc/images/index/tutor-team-bg.png") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .tutor-team .main-title {
-    margin-top: 110px;
-    margin-bottom: 88px;
+    margin-top: 50px;
+    margin-bottom: 60px;
     color: #fff;
 }
 
@@ -164,10 +224,12 @@
     transition: 0.25s ease-in-out;
     border-bottom: 2px solid transparent;
 }
-.excellent-btn ul li.active{
+
+.excellent-btn ul li.active {
     color: #ffa000;
     border-bottom: 2px solid #ffa000;
 }
+
 .excellent-btn ul li:hover {
     color: #ffa000;
     border-bottom: 2px solid #ffa000;
@@ -185,19 +247,20 @@
     color: #333;
     overflow: hidden;
 }
-.excellent-con-list{
+
+.excellent-con-list {
     display: none;
 }
-.excellent-con-list.active{
+
+.excellent-con-list.active {
     display: block;
     overflow: hidden;
 }
+
 .excellent-con-list ul li:nth-child(even) {
     float: right;
 }
-.excellent-con-list ul li:nth-child(5){
-    /* display: none; */
-}
+
 .excellent-con-list ul li:hover h2 {
     color: red;
 }
@@ -239,7 +302,35 @@
     -webkit-line-clamp: 3;
     word-break: break-all;
 }
-
+/* 小鱼优势 */
+.advantage .main-title{
+    margin-bottom: 80px;
+}
+.advantage .con{
+    position: relative;
+    margin-bottom: 150px;
+}
+.advantage .con .text{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 626px;
+    height: 183px;
+    margin-top: -120px;
+    padding: 30px;
+    color: #313131;
+    font-size: 16px;
+    line-height: 43px;
+    background: #fbf8fb;
+}
+.advantage .con .img{
+    width: 575px;
+    height: 358px;
+}
+.advantage .con .img img{
+    width: 100%;
+    height: 100%;
+}
 /* 合作伙伴 */
 .friend {
     padding-top: 50px;
@@ -261,7 +352,7 @@
 .friend ul li {
     width: 148px;
     height: 70px;
-    margin-right: 20px;
+    margin-right: 17px;
     margin-bottom: 24px;
     display: inline-block;
     border: 1px solid #eee;

@@ -88,7 +88,7 @@ header {
 
 /* banner */
 .banner-wrap {
-    width: 1500px;
+    max-width: 1500px;
     margin: 0 auto;
     /* margin-top: 94px; */
     font-size: 0;
