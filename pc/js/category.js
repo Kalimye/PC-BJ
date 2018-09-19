@@ -54,6 +54,7 @@ switch (pathname) {
         break;
 }
 
+// 渲染到页面中的格式
 var categoryWrap = document.querySelector(".category-con ul");
 
 function toArtList(content) {
