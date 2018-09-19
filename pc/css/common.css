@@ -46,6 +46,7 @@ li {
 
 .main {
     margin-top: 94px;
+    min-height: 1000px;
 }
 
 /* header */

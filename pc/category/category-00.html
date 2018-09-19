@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>全部文章 | 小鱼情感</title>
     <meta name="keywords" content="情感挽回, 挽回爱情, 感情挽回, 情感咨询, 情感挽回公司" />
-    <meta name="description" content="小鱼情感是一家专注于情感挽回、婚姻修复、爱情保鲜等服务的情感挽回公司，分享挽救婚姻、挽回爱情秘籍及方法，针对情感挽回、挽回爱情、挽救婚姻等提供解决方案，是您身边的爱情指导挽回专家！" />
+    <meta name="description" content="小鱼情感是一家专注于情感挽回、婚姻修复、爱情保鲜等服务的情感挽回公司，分享挽救婚姻、挽回爱情秘籍及方法，针对情感挽回、挽回爱情、挽救婚姻等提供解决方案，是您身边的爱情指导挽回专家！"
+    />
     <link rel="stylesheet" href="/pc/css/common.css">
     <link rel="stylesheet" href="/pc/css/category.css">
     <link rel="stylesheet" href="/pc/css/category-00.css">
@@ -69,11 +70,21 @@
             </div>
             <div class="footer-nav clear">
                 <ul>
-                    <li><a href="#">关于小鱼情感</a></li>
-                    <li><a href="#">咨询客服</a></li>
-                    <li><a href="#">联系我们</a></li>
-                    <li><a href="#">联系我们</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li>
+                        <a href="#">关于小鱼情感</a>
+                    </li>
+                    <li>
+                        <a href="#">咨询客服</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
                 </ul>
             </div>
             <div class="copyright clear">
@@ -87,5 +98,11 @@
     </footer>
     <script src="/pc/js/common.js"></script>
     <script src="/pc/js/category.js"></script>
-    
+    <script>
+        art_info.forEach(item => {
+            item.list.forEach(content => {
+                toArtList(content);
+            })
+        });
+    </script>
 </body>
