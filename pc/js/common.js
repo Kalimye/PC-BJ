@@ -45,6 +45,11 @@ var navArray = [{
         link: "/"
     },
     {
+        name: "挽回爱情",
+        class: "save-love",
+        link: "/pc/save-love.html"
+    },
+    {
         name: "权威专家",
         class: "famous-expert",
         link: "/pc/famous-expert.html"
@@ -60,7 +65,7 @@ var navArray = [{
         link: "/pc/about.html"
     },
     {
-        name: "全部文章",
+        name: "情感专栏",
         class: "category",
         link: "/pc/category/category-00.html"
     },
