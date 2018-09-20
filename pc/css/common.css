@@ -86,18 +86,6 @@ header {
     color: #ff3232;
 }
 
-/* banner */
-.banner-wrap {
-    max-width: 1500px;
-    margin: 0 auto;
-    /* margin-top: 94px; */
-    font-size: 0;
-}
-
-.banner-wrap img {
-    width: 100%;
-}
-
 /* footer */
 footer {
     width: 100%;

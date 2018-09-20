@@ -22,6 +22,18 @@
     width: 40px;
 }
 
+/* banner */
+.banner-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin-top: 94px; */
+    font-size: 0;
+}
+
+.banner-wrap img {
+    width: 100%;
+}
+
 /* 分手类型 */
 
 .leave-type {
@@ -119,12 +131,15 @@
     background: #ffa99d;
     padding-bottom: 140px;
 }
-.success-case .main-title{
+
+.success-case .main-title {
     color: #fff;
 }
+
 .success-case .main-title:after {
     background: #fff;
 }
+
 .success-case ul {
     display: flex;
     justify-content: center;
@@ -138,19 +153,23 @@
     height: 590px;
     border-top: 10px solid #ff5161;
 }
-.success-case ul li:nth-child(2){
+
+.success-case ul li:nth-child(2) {
     margin-top: 40px;
 }
-.success-case ul li:last-child{
+
+.success-case ul li:last-child {
     margin-right: 0;
 }
-.success-case ul li .box{
+
+.success-case ul li .box {
     width: 100%;
     height: 178px;
     background: #fff;
     font-size: 14px;
 }
-.success-case ul li .box p{
+
+.success-case ul li .box p {
     padding: 28px 22px;
     line-height: 24px;
 }
