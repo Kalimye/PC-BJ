@@ -20,6 +20,19 @@
     width: 100px;
 }
 
+/* banner */
+.banner-wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+    /* margin-top: 94px; */
+    font-size: 0;
+}
+
+.banner-wrap img {
+    width: 100%;
+}
+
+
 /* 品牌宣语 */
 .brand-wrap {
     height: 600px;
@@ -302,15 +315,18 @@
     -webkit-line-clamp: 3;
     word-break: break-all;
 }
+
 /* 小鱼优势 */
-.advantage .main-title{
+.advantage .main-title {
     margin-bottom: 80px;
 }
-.advantage .con{
+
+.advantage .con {
     position: relative;
     margin-bottom: 150px;
 }
-.advantage .con .text{
+
+.advantage .con .text {
     position: absolute;
     top: 50%;
     right: 0;
@@ -323,14 +339,17 @@
     line-height: 43px;
     background: #fbf8fb;
 }
-.advantage .con .img{
+
+.advantage .con .img {
     width: 575px;
     height: 358px;
 }
-.advantage .con .img img{
+
+.advantage .con .img img {
     width: 100%;
     height: 100%;
 }
+
 /* 合作伙伴 */
 .friend {
     padding-top: 50px;
