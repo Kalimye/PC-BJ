@@ -1,0 +1,156 @@
+.nav-list .save-love a {
+    color: red;
+}
+
+/* 标题样式 */
+.main-title {
+    margin-top: 75px;
+    padding-bottom: 20px;
+    color: #313131;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title:after {
+    background: #ffa99d;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 40px;
+}
+
+/* 分手类型 */
+
+.leave-type {
+    padding-bottom: 70px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.leave-type ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.leave-type ul.first-list {
+    margin-top: 40px;
+}
+
+.leave-type ul li {
+    width: 180px;
+    margin-right: 160px;
+    margin-bottom: 40px;
+}
+
+.leave-type ul li:last-child {
+    margin-right: 0;
+}
+
+.leave-type ul li h4 {
+    margin: 25px 0px 20px;
+    color: #ff5161;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.leave-type ul li span {
+    display: block;
+    color: #313131;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* 错误挽回 */
+.wrong-resave {
+    padding-bottom: 80px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.wrong-resave ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.wrong-resave ul li {
+    position: relative;
+    margin-right: 90px;
+    width: 220px;
+    height: 248px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrong-resave ul li:last-child {
+    margin-right: 0;
+}
+
+.wrong-resave ul li img {
+    position: absolute;
+    top: -76.5px;
+    left: 50%;
+    margin-left: -76.5px;
+    width: 153px;
+    height: 153px;
+}
+
+.wrong-resave ul li h4 {
+    padding-top: 100px;
+    color: #313131;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wrong-resave ul li p {
+    padding: 30px 15px;
+    color: #919191;
+    font-size: 14px;
+}
+
+/* 成功案例 */
+.success-case {
+    overflow: hidden;
+    background: #ffa99d;
+    padding-bottom: 140px;
+}
+.success-case .main-title{
+    color: #fff;
+}
+.success-case .main-title:after {
+    background: #fff;
+}
+.success-case ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.success-case ul li {
+    margin-right: 30px;
+    font-size: 0;
+    width: 380px;
+    height: 590px;
+    border-top: 10px solid #ff5161;
+}
+.success-case ul li:nth-child(2){
+    margin-top: 40px;
+}
+.success-case ul li:last-child{
+    margin-right: 0;
+}
+.success-case ul li .box{
+    width: 100%;
+    height: 178px;
+    background: #fff;
+    font-size: 14px;
+}
+.success-case ul li .box p{
+    padding: 28px 22px;
+    line-height: 24px;
+}
