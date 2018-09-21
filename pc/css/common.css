@@ -14,9 +14,9 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 a {
     color: #313131;
