@@ -108,11 +108,11 @@
 }
 
 .category-left ul li.active a {
-    background: red;
+    background: #ffa99d;
     color: #fff;
 }
 
 .category-left ul li:hover a {
-    background: red;
+    background: #ffa99d;
     color: #fff;
 }
