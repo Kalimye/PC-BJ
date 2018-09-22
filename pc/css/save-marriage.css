@@ -1,0 +1,147 @@
+.nav-list .save-marriage a {
+    color: red;
+}
+
+/* banner */
+.banner-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin-top: 94px; */
+    font-size: 0;
+}
+
+.banner-wrap img {
+    width: 100%;
+}
+
+/* 标题样式 */
+.main-title {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    color: #313131;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title:after {
+    background: #ffa967;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 40px;
+}
+
+/* 离婚类型 */
+.divorce {
+    overflow: hidden;
+    padding-bottom: 100px;
+    background: #fefaf4;
+}
+
+.divorce ul {
+    display: flex;
+    justify-content: center;
+}
+
+.divorce ul li {
+    margin: 0 35px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.divorce ul li h4 {
+    margin: 40px 0;
+    color: #ff8420;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.divorce ul li img {
+    border-radius: 50%;
+}
+
+.divorce ul li p {
+    color: #313131;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/* 错误挽回 */
+
+.wrong {
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.wrong img {
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.wrong ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.wrong li {
+    width: 260px;
+    margin-right: 32px;
+    text-align: center;
+}
+.wrong li:last-child{
+    margin-right: 0;
+}
+.wrong .con {
+    height: 120px;
+    border-radius: 10px;
+    background: #fefaf4;
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrong .con span {
+    display: block;
+    width: 100%;
+    align-self: center;
+    font-weight: bold;
+}
+
+/* 婚姻修复 */
+.repair{
+    height: 572px;
+    overflow: hidden;
+    background: url("/pc/images/save-marriage/repair-bg.jpg") no-repeat center center;
+}
+.repair .main-title{
+    color: #fff;
+}
+.repair .main-title::after{
+    background: #fff;
+}
+
+/* 成功案例展示 */
+.case {
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+.case ul{
+    display: flex;
+    justify-content: center;
+}
+
+.case ul li{
+    margin-right: 80px;
+}
+
+.case ul li:last-child{
+    margin-right: 0;
+}
