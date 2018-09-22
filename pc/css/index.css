@@ -76,7 +76,7 @@
     height: 600px;
     color: #fff;
     background: url("/pc/images/index/achieve-bg.png") no-repeat center center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
 }
 
 .achieve-wrap .main-title {
@@ -199,7 +199,7 @@
     height: 680px;
     overflow: auto;
     background: url("/pc/images/index/tutor-team-bg.png") no-repeat center center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
 }
 
 .tutor-team .main-title {
