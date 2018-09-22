@@ -29,7 +29,7 @@
 
 var phone_number = document.querySelectorAll(".phone-number");
 phone_number.forEach(item => {
-    item.textContent = '4006-299-520';
+    item.textContent = 'xxxx-xxx-xxx';
 });
 
 // 页面logo
