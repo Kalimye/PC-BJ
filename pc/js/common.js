@@ -27,10 +27,14 @@
 
 // 电话号码设置
 
-var phone_number = document.querySelectorAll(".phone-number");
-phone_number.forEach(item => {
-    item.textContent = 'xxxx-xxx-xxx';
-});
+function phone() {
+    var phone_number = document.querySelectorAll(".phone-number");
+    for (var i = 0; i < phone_number.length; i++) {
+        phone_number[i].textContent = 'xxxx-xxx-xxx';
+    }
+}
+phone();
+
 
 // 页面logo
 var logo = document.querySelector(".logo img");
@@ -77,19 +81,22 @@ var navArray = [{
 ];
 
 // 渲染导航
-var nav = document.querySelector(".nav-list");
-navArray.forEach(item => {
-    var nav_item = document.createElement("li");
-    var nav_a = document.createElement("a");
 
-    nav_item.classList.add(item.class);
-    nav_a.href = item.link;
-    nav_a.textContent = item.name;
+function navigation() {
+    var nav = document.querySelector(".nav-list");
+    for (var i = 0; i < navArray.length; i++) {
+        var nav_item = document.createElement("li");
+        var nav_a = document.createElement("a");
 
-    nav_item.appendChild(nav_a);
-    nav.appendChild(nav_item);
-});
+        nav_item.classList.add(navArray[i].class);
+        nav_a.href = navArray[i].link;
+        nav_a.textContent = navArray[i].name;
 
+        nav_item.appendChild(nav_a);
+        nav.appendChild(nav_item);
+    }
+}
+navigation();
 
 // 文章分类标题部分
 var article = [{
@@ -313,31 +320,31 @@ var art_info = [{
             date: "2018-01-24",
             href: "/pc/article/article-06-01.html",
             cover: "/pc/images/article/cover/cover-26.png"
-        },{
+        }, {
             title: "优柔寡断的男人如何改善性格成功挽回？",
             description: "余先生这个人性格很好，平易近人，身边的朋友同事都特别喜欢他。而这样的性格也让他找到了女友。按照一般的想象，跟平和的男人在一起生活应该会平淡而幸福，虽说没有什么大的波动但贵在稳定，过过安稳的小日子。",
             date: "2018-05-24",
             href: "/pc/article/article-06-02.html",
             cover: "/pc/images/article/cover/cover-27.png"
-        },{
+        }, {
             title: "分手了，都怪我性格太内向了！",
             description: "说起人的性格，首先浮现在你脑海里的，也无非就是“内向”、“外向”两种。不同的性格有各自的优势劣势，但性格本身没有高下之别。然而，我们小鱼情感曾接手的一位学员却将自己错失爱情的原因，一股脑归咎于“内向性格”，下面来看看他的情感经历吧。",
             date: "2018-07-16",
             href: "/pc/article/article-06-03.html",
             cover: "/pc/images/article/cover/cover-28.png"
-        },{
+        }, {
             title: "别真信了“性格不合”的分手理由，你必须要看清这背后隐藏的问题",
             description: "这可能是最烂大街的分手理由了，许多人在听到这样的话以后也会彻底丧失挽回的信心，觉得这种深层次的问题是没办法改变的。可他们却忘了应该跳出这句抽象的理由，去真正找出两人的关系当中存在的问题。",
             date: "2018-07-24",
             href: "/pc/article/article-06-04.html",
             cover: "/pc/images/article/cover/cover-29.png"
-        },{
+        }, {
             title: "性格偏执型恋人追求爱情完美 最终断送幸福",
             description: "董青（女化名）是我在小鱼情感最近接触的学员，正如微信中所言，她就是爱情中的“完美主义者”。董青对待爱情有自己的一套标准，既然两个人自愿选择在一起，那么为了心中完美的爱情，严格要求男友“服从”，特别是外表形象和交友方面。",
             date: "2018-07-26",
             href: "/pc/article/article-06-05.html",
             cover: "/pc/images/article/cover/cover-30.png"
-        },]
+        }, ]
     }, {
         type: "07",
         category: "感情淡化",
@@ -348,25 +355,25 @@ var art_info = [{
             date: "2018-01-05",
             href: "/pc/article/article-07-01.html",
             cover: "/pc/images/article/cover/cover-31.png"
-        },{
+        }, {
             title: "两年异地恋，三个月见一面，找个小姐怎么了？",
             description: "我和女友已经在一起五年了，但最后两年是异地恋，因为一时糊涂，我出轨了，不，也不算出轨，就是因为生理需求，找了个小姐，没想到那个小姐对我纠缠不清，最后闹得让女友知道了，说我恶心，不肯原谅我。",
             date: "2018-02-05",
             href: "/pc/article/article-07-02.html",
             cover: "/pc/images/article/cover/cover-32.png"
-        },{
+        }, {
             title: "异地恋是真的不容易，你看我这满满的火车票就知道了",
             description: "林明和女友菲菲大学时就在一起了，毕业之后，林明选择去外地发展，菲菲听从父母的安排考取了当地的公务员。两人开始了异地恋，林明每次休假就会买上一张车票去看菲菲。原本以为感情深厚，任何困难都能克服。可是没想到，菲菲还是提出了分手。",
             date: "2018-02-23",
             href: "/pc/article/article-07-03.html",
             cover: "/pc/images/article/cover/cover-33.png"
-        },{
+        }, {
             title: "一段被包养的异地恋情，还有机会挽回吗？",
             description: "陈熙是我的一个朋友，也是我们小鱼情感的一位学员，最近他遇到了情感问题，大半夜和我一顿倾诉，我隐约记得两个人应该才谈了不到一年的时间，怎么就要闹分手了呢？",
             date: "2018-04-09",
             href: "/pc/article/article-07-04.html",
             cover: "/pc/images/article/cover/cover-34.png"
-        },{
+        }, {
             title: "异地恋，到底有多煎熬？网友：累了，真的累了",
             description: "我叫王宇，前几天和女友分手后，意外在网上看到了小鱼情感关于挽回的文章，其中的异地挽回方案戳中了我的心窝，于是我迫不及待的找到了小鱼情感挽回团队，讲述了我和女友的异地故事。",
             date: "2018-05-18",
