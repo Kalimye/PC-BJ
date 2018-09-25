@@ -13,7 +13,6 @@ function articleFun() {
        
         // 将7个分类下的文章渲染到页面
         for (var j = 0; j < art_info[i].list.length; j++) {
-            console.log(art_info[i].list[j])
             var itemLi = document.createElement("li");
 
             var artLink = document.createElement("a");

@@ -99,10 +99,10 @@
     <script src="/pc/js/common.js"></script>
     <script src="/pc/js/category.js"></script>
     <script>
-        art_info.forEach(item => {
-            item.list.forEach(content => {
-                toArtList(content);
-            })
-        });
+        for(var i = 0;i<art_info.length;i++){            
+            for(var j = 0;j<art_info[i].list.length;j++){
+                toArtList(art_info[i].list[j]);
+            }
+        }
     </script>
 </body>
