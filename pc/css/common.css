@@ -79,11 +79,11 @@ header {
 }
 
 .nav-list .active a {
-    color: #ff3232
+    color: #ff5161
 }
 
 .nav-list li :hover {
-    color: #ff3232;
+    color: #ff5161;
 }
 
 /* footer */
