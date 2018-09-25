@@ -1,9 +1,9 @@
 ﻿.nav-list .category a {
-    color: red;
+    color: #ff5161;
 }
 
 .red {
-    color: red !important;
+    color: #ff5161 !important;
 }
 
 .center {
@@ -31,7 +31,7 @@
 }
 
 .breadcrumbs-nav a:hover {
-    color: red;
+    color: #ff5161;
 }
 
 .breadcrumbs-nav i {
@@ -162,21 +162,21 @@
 }
 
 /* 右侧更多文章 */
-.more-article {
-    /* padding: 20px;
+/* .more-article {
+    padding: 20px;
     border: #f0f0f0 solid 1px;
     width: 278px;
     background: #fff;
     margin-top: 58px;
-    z-index: 1; */
-}
+    z-index: 1;
+} */
 
 .more-article ul li {
     margin-bottom: 20px;
 }
 
 .more-article ul li:hover p {
-    color: red;
+    color: #ff5161;
 }
 
 .more-article ul li p {

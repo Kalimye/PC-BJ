@@ -1,5 +1,5 @@
 .nav-list .index a {
-    color: red;
+    color: #ff5161;
 }
 
 .main-title {
@@ -12,12 +12,12 @@
 }
 
 .main-title:after {
-    background: #303030;
+    background: #ffa99d;
     content: "";
     display: block;
     height: 2px;
     margin: 20px auto;
-    width: 100px;
+    width: 40px;
 }
 
 /* banner */
@@ -50,7 +50,7 @@
 }
 
 .brand-wrap h2 {
-    color: #ffa000;
+    color: #ff5161;
     font-size: 24px;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -129,7 +129,7 @@
 } */
 
 .tutor-intro-con ul li .tutor-txt:hover a {
-    color: #ff3232;
+    color: #ff5161;
 }
 
 .honor-block {
@@ -162,7 +162,7 @@
 }
 
 .service-block .service-txt a:hover dl dt {
-    color: #ffa000;
+    color: #ff5161;
 }
 
 .service-block .service-txt dl {
@@ -173,7 +173,6 @@
     margin-bottom: 20px;
     line-height: 20px;
     text-align: center;
-
     color: #333;
     font-size: 18px;
     font-weight: bold;
@@ -182,7 +181,7 @@
 .service-block .service-txt dl dt span {
     display: inline-block;
     width: 24px;
-    border-bottom: 3px solid #ffa000;
+    border-bottom: 3px solid #ff5161;
 }
 
 .service-block .service-txt dl dd {
@@ -239,13 +238,13 @@
 }
 
 .excellent-btn ul li.active {
-    color: #ffa000;
-    border-bottom: 2px solid #ffa000;
+    color: #ff5161;
+    border-bottom: 2px solid #ff5161;
 }
 
 .excellent-btn ul li:hover {
-    color: #ffa000;
-    border-bottom: 2px solid #ffa000;
+    color: #ff5161;
+    border-bottom: 2px solid #ff5161;
 }
 
 .excellent-btn ul li a {
@@ -275,7 +274,7 @@
 }
 
 .excellent-con-list ul li:hover h2 {
-    color: red;
+    color: #ff5161;
 }
 
 .excellent-con-list ul li .excellent-list-left img {

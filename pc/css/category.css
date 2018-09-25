@@ -1,5 +1,5 @@
 .nav-list .category a {
-    color: red;
+    color: #ff5161;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 .category-con ul li:hover h3 {
-    color: red;
+    color: #ff5161;
 }
 
 .category-con ul li .con div {
