@@ -197,7 +197,6 @@
 
 /* 点击导师的弹出层 */
 .layer-box {
-    display: none !important;
     position: fixed;
     left: 0;
     top: 0;
@@ -211,9 +210,11 @@
     height: 100%;
     background: rgba(0, 0, 0, 0);
     z-index: 1000;
+    display: none;
 }
 
 .layer-box .con {
+    position: relative;
     overflow: hidden;
     display: flex;
     width: 763px;
@@ -261,7 +262,17 @@
     font-size: 16px;
     color: #313131;
 }
-
+.closeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
 /* 关注微信公众号 */
 
 .attent-wx {
