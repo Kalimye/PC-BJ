@@ -59,12 +59,17 @@ var navArray = [{
         link: "/pc/save-marriage.html"
     },
     {
-        name: "权威专家",
-        class: "famous-expert",
-        link: "/pc/famous-expert.html"
+        name: "情感专栏",
+        class: "category",
+        link: "/pc/category/category-00.html"
     },
     {
-        name: "服务介绍",
+        name: "权威专家",
+        class: "tutor",
+        link: "/pc/tutor.html"
+    },
+    {
+        name: "免费咨询",
         class: "server",
         link: "/pc/server.html"
     },
@@ -72,11 +77,6 @@ var navArray = [{
         name: "关于我们",
         class: "about",
         link: "/pc/about.html"
-    },
-    {
-        name: "情感专栏",
-        class: "category",
-        link: "/pc/category/category-00.html"
     },
 ];
 
