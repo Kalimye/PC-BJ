@@ -55,8 +55,8 @@ var navArray = [{
     },
     {
         name: "挽救婚姻",
-        class: "save-marriage",
-        link: "/pc/save-marriage.html"
+        class: "marriage",
+        link: "/pc/marriage.html"
     },
     {
         name: "情感专栏",

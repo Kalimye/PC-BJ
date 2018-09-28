@@ -1,4 +1,4 @@
-.nav-list .save-marriage a {
+.nav-list .marriage a {
     color: #ff5161;
 }
 
@@ -119,7 +119,7 @@
 .repair{
     height: 572px;
     overflow: hidden;
-    background: url("/pc/images/save-marriage/repair-bg.jpg") no-repeat center center;
+    background: url("/pc/images/marriage/repair-bg.jpg") no-repeat center center;
 }
 .repair .main-title{
     color: #fff;
