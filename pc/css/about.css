@@ -112,9 +112,12 @@
     font-size: 20px;
     text-align: center;
     color: #fff;
+    transition: .3s;
     background: #ff8585;
 }
-
+.develop .advisory-box:hover{
+    background: #f37a7a;
+}
 /* 公司环境 */
 .space {
     overflow: hidden;
