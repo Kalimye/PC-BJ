@@ -132,8 +132,6 @@ function openLayer() {
 
             // 导师寄语
             tutorMessage.textContent = tutorBlock[this.index].message;
-
-
         }
     }
 }
