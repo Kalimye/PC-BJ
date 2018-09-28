@@ -143,9 +143,11 @@ footer .copyright {
     letter-spacing: 2px;
     color: #ccc;
 }
-
+.footer-top .qrcode.qrcode-01{
+    display: none;
+}
 .footer-top .qrcode {
-    margin-left: 100px;
+    margin-left: 196px;
     text-align: center;
 }
 
