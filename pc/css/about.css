@@ -1,0 +1,153 @@
+.nav-list .about a {
+    color: #ff5161;
+}
+
+/* banner */
+.banner-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin-top: 94px; */
+    font-size: 0;
+}
+
+.banner-wrap img {
+    width: 100%;
+}
+
+/* 标题样式 */
+.main-title {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    color: #313131;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-title:after {
+    background: #ffa99d;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 40px;
+}
+
+/* 行业介绍 */
+.intro {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.intro .main-title {
+    padding-bottom: 0;
+}
+
+.intro .txt {
+    margin: 70px 0;
+    line-height: 36px;
+    font-size: 18px;
+    color: #616161;
+    text-align: center;
+}
+
+.intro img {
+    display: block;
+    margin: 0 auto;
+}
+
+.intro ul {
+    display: flex;
+    justify-content: center;
+}
+
+.intro ul li {
+    margin-right: 170px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.intro ul li span {
+    display: block;
+    margin-top: 28px;
+}
+
+.intro ul li:last-child {
+    margin-right: 0;
+}
+
+/* 发展历程 */
+
+.develop {
+    overflow: hidden;
+    height: 600px;
+    background: url("/pc/images/about/develop-bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.develop h3 {
+    text-align: center;
+    margin: 70px 0 90px;
+    font-size: 36px;
+}
+
+.develop p {
+    width: 880px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 45px;
+    text-indent: 2em;
+}
+
+.develop .advisory-box {
+    width: 180px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 80px;
+    line-height: 46px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background: #ff8585;
+}
+
+/* 公司环境 */
+.space {
+    overflow: hidden;
+}
+
+.space ul {
+    margin: 50px 0 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.space ul li {
+    position: relative;
+    width: 340px;
+    margin-right: 90px;
+}
+
+.space ul li:last-child {
+    margin-right: 0;
+}
+
+.space ul li span {
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    display: block;
+    width: 220px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    margin-left: -110px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: #ff8585;
+}
