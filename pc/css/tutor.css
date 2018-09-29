@@ -280,6 +280,7 @@
 /* 关注微信公众号 */
 
 .attent-wx {
+    display: none;
     padding: 147px 0;
     height: 379px;
     background: url("/pc/images/tutor/attent-bg.png") no-repeat center center;

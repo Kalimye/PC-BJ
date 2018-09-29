@@ -38,7 +38,7 @@
             <div class="wrap">
                 <h3 class="main-title">分手类型</h3>
                 <!-- 第一行 -->
-                <ul class="first-list wow fadeIn">
+                <ul class="first-list wow slideInDown">
                     <li>
                         <img src="/pc/images/save-love/icon-01.png" alt="异地图标">
                         <h4>异地</h4>
@@ -65,7 +65,7 @@
                     </li>
                 </ul>
                 <!-- 第二行 -->
-                <ul class=" wow fadeIn" data-wow-delay=".5s" >
+                <ul class=" wow slideInUp">
                     <li>
                         <img src="/pc/images/save-love/icon-05.png" alt="感情淡化">
                         <h4>感情淡化</h4>
@@ -92,22 +92,22 @@
             <div class="wrap">
                 <h3 class="main-title">错误挽回</h3>
                 <ul>
-                    <li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.5s">
                         <img src="/pc/images/save-love/wrong-01.png" alt="错误挽回配图">
                         <h4>死缠烂打求原谅</h4>
                         <p>付出的越来越多，但是对方却总是无动于衷，难道爱一个人对TA好也是错吗？</p>
                     </li>
-                    <li>
+                    <li class="wow fadeInLeft">
                         <img src="/pc/images/save-love/wrong-02.png" alt="错误挽回配图">
                         <h4>道德指责纠结对错</h4>
                         <p>当对方不想挽回这段感情，你做这些没有任何意义，只会错过 最佳挽回时间。</p>
                     </li>
-                    <li>
+                    <li class="wow fadeInRight">
                         <img src="/pc/images/save-love/wrong-03.png" alt="错误挽回配图">
                         <h4>舆论压力逼迫对方低头</h4>
                         <p>你利用亲朋好友逼迫对方，会让对方难堪，无法面对亲朋让对方不想再搭理你。</p>
                     </li>
-                    <li>
+                    <li class="wow fadeInRight" data-wow-delay="0.5s">
                         <img src="/pc/images/save-love/wrong-04.png" alt="错误挽回配图">
                         <h4>毫无诚意的只说不做</h4>
                         <p>不断地承诺，各种保证，却从不付诸行动。</p>
@@ -119,20 +119,20 @@
         <div class="success-case">
             <div class="wrap">
                 <div class="main-title">成功案例</div>
-                <ul class=" wow fadeIn">
-                    <li>
+                <ul class="wow fadeInUp">
+                    <li class="wow fadeInUp">
                         <img src="/pc/images/save-love/image-anli--1.png" alt="成功案例">
                         <div class="box">
                             <p>我对她这么好却没有得到她的爱，我在这段感情中付出得太多了，给她造成压力的同时，我也爱得太累了，最终她和我提了分手，后来在小鱼情感的帮助下，我明白了如何去爱，现在她又重新回到我身边了。</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow fadeInUp" data-wow-delay="0.3s">
                         <img src="/pc/images/save-love/image-anli--2.png" alt="成功案例">
                         <div class="box">
                             <p>我在分手后几次挽回而不得，还被他二次拉黑了，是小鱼情感的导师告诉我应该如何隐藏需求感，该如何正确建立联系，又该在什么时候向他表白，我这才没有错过这段感情。</p>
                         </div>
                     </li>
-                    <li>
+                    <li class=" wow fadeInUp">
                         <img src="/pc/images/save-love/image-anli--3.png" alt="成功案例">
                         <div class="box">
                             <p>因为不懂浪漫经常被女友抱怨，最终分手，我曾经特别沮丧，无意中找到了小鱼情感，在小鱼情感导师的帮助下，我知道了什么是爱情里的仪式感，通过一点点的学习，我知道女友想要的究竟是什么，最后经过多次的实战演习，在复合表白中一举成功，重新抱得美人归了。</p>
@@ -184,12 +184,10 @@
         </div>
     </footer>
     <script>
-        wow = new WOW(
-          {
+        wow = new WOW({
             animateClass: 'animated',
-            offset:       100
-          }
-        );
+            offset: 100
+        });
         wow.init();
     </script>
     <script src="/pc/js/common.js"></script>
