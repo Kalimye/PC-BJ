@@ -19,8 +19,8 @@ function categoryNavStyle() {
     var btn_item = btnWrap.getElementsByTagName("li");
 
     // 获取后缀名
-    let pathname = window.location.pathname;
-    const pathnameArr = pathname.split('/');
+    var pathname = window.location.pathname;
+    var pathnameArr = pathname.split('/');
     pathname = pathnameArr[pathnameArr.length - 1];
     pathname = pathname.split('.')[0];
 
