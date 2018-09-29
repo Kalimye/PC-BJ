@@ -77,6 +77,7 @@
     height: 120px;
     color: #919191;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .form input[type="text"] {
