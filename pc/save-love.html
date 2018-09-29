@@ -10,6 +10,8 @@
     <meta name="description" content="小鱼情感是一家专注于情感挽回、婚姻修复、爱情保鲜等服务的情感挽回公司，分享挽救婚姻、挽回爱情秘籍及方法，针对情感挽回、挽回爱情、挽救婚姻等提供解决方案，是您身边的爱情指导挽回专家！" />
     <link rel="stylesheet" href="/pc/css/common.css">
     <link rel="stylesheet" href="/pc/css/save-love.css">
+    <link rel="stylesheet" href="/pc/css/animate.min.css">
+    <script src="/pc/js/wow.js"></script>
     <link rel="shortcut icon" href="/pc/images/common/site-icon.png" type="image/x-icon">
 </head>
 
@@ -36,7 +38,7 @@
             <div class="wrap">
                 <h3 class="main-title">分手类型</h3>
                 <!-- 第一行 -->
-                <ul class="first-list">
+                <ul class="first-list wow fadeIn">
                     <li>
                         <img src="/pc/images/save-love/icon-01.png" alt="异地图标">
                         <h4>异地</h4>
@@ -63,7 +65,7 @@
                     </li>
                 </ul>
                 <!-- 第二行 -->
-                <ul>
+                <ul class=" wow fadeIn" data-wow-delay=".5s" >
                     <li>
                         <img src="/pc/images/save-love/icon-05.png" alt="感情淡化">
                         <h4>感情淡化</h4>
@@ -117,7 +119,7 @@
         <div class="success-case">
             <div class="wrap">
                 <div class="main-title">成功案例</div>
-                <ul>
+                <ul class=" wow fadeIn">
                     <li>
                         <img src="/pc/images/save-love/image-anli--1.png" alt="成功案例">
                         <div class="box">
@@ -181,6 +183,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset:       100
+          }
+        );
+        wow.init();
+    </script>
     <script src="/pc/js/common.js"></script>
 </body>
 

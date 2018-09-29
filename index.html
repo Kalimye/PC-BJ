@@ -11,6 +11,8 @@
 	<link rel="stylesheet" href="/pc/css/common.css">
 	<link rel="stylesheet" href="/pc/css/index.css">
 	<link rel="shortcut icon" href="/pc/images/common/site-icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="/pc/css/animate.min.css">
+	<script src="/pc/js/wow.js"></script>
 </head>
 
 <body>
@@ -33,7 +35,7 @@
 		</div>
 		<!-- 品牌宣语 -->
 		<div class="brand-wrap">
-			<div class="wrap">
+			<div class="wrap wow fadeInUp">
 				<h3 class="main-title">品牌宣语</h3>
 				<p class="brand-slogan">小鱼情感，专业解决情感问题的领航者，让爱不留遗憾</p>
 				<h2>”小鱼有话说“</h2>
@@ -45,7 +47,7 @@
 			</div>
 		</div>
 		<!-- 公司成就 -->
-		<div class="achieve-wrap">
+		<div class="achieve-wrap wow fadeIn">
 			<div class="wrap">
 				<h3 class="main-title">公司成就</h3>
 				<div class="con">
@@ -171,7 +173,7 @@
 			</div>
 		</div>
 		<!-- 专家团队 -->
-		<div class="tutor-team">
+		<div class="tutor-team wow fadeIn">
 			<h3 class="main-title">专家团队</h3>
 			<div class="tutor-intro-con">
 				<ul>
@@ -219,7 +221,7 @@
 			</div>
 		</div>
 		<!-- 小鱼优势 -->
-		<div class="advantage">
+		<div class="advantage wow fadeInUp">
 			<div class="wrap">
 				<h3 class="main-title">小鱼优势</h3>
 				<div class="con">
@@ -317,6 +319,13 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
 	<script src="/pc/js/common.js"></script>
 	<script src="/pc/js/index.js"></script>
 </body>
