@@ -30,14 +30,7 @@
         <div class="wrap">
             <div class="category-left">
                 <ul>
-                    <!-- <li class="active"><a href="/pc/category/category-00.html">全部文章</a></li>
-                    <li><a href="/category/category-01.html">感情淡化</a></li>
-                    <li><a href="/category/category-02.html">婚姻破裂</a></li>
-                    <li><a href="/category/category-03.html">恋人劈腿</a></li>
-                    <li><a href="/category/category-04.html">矛盾积累</a></li>
-                    <li><a href="/category/category-05.html">挽回干货</a></li>
-                    <li><a href="/category/category-06.html">性格不和</a></li>
-                    <li><a href="/category/category-07.html">异地恋情</a></li> -->
+
                 </ul>
             </div>
             <div class="category-con">
@@ -100,6 +93,7 @@
     <script src="/pc/js/common.js"></script>
     <script src="/pc/js/category.js"></script>
     <script>
+        // 渲染内容到页面
         function artToPage() {
 
             for (var i = 0; i < art_info.length; i++) {
@@ -110,13 +104,17 @@
         }
         artToPage();
 
-        // 获取到导航
+        // 获取到左侧
         var artNavList = btnWrap.querySelectorAll("li");
 
+        // 点击左侧导航按钮，右侧内容跟随滑动
         function addNavStyle() {
-
             for (var i = 0; i < artNavList.length; i++) {
+                artNavList[i].index = i;
                 artNavList[i].onclick = function () {
+                    // 向下滚动的距离
+                    window.scrollTo(0, this.index * 1255);
+
                     for (var j = 0; j < artNavList.length; j++) {
                         artNavList[j].classList.remove("active");
                     }
@@ -126,9 +124,9 @@
         }
         addNavStyle();
 
-
-        function pageScrollReduce() {
-            window.scrollBy(0, -94);
-        }
+        // function navFallow() {
+        //     var 
+        //     // switch 
+        // }
     </script>
 </body>

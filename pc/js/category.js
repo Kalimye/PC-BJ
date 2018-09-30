@@ -4,7 +4,8 @@ function categoryNav() {
         var btnLi = document.createElement("li");
         var btnLink = document.createElement("a");
 
-        btnLink.href = article[i].link;
+        // 添加链接
+        // btnLink.href = article[i].link;
         btnLink.textContent = article[i].name;
 
         btnLi.appendChild(btnLink);
@@ -18,8 +19,7 @@ categoryNav();
 btnWrap.firstElementChild.classList.add("active");
 
 
-
-    // 根据后缀名给情感专栏列表页添加样式
+// 根据后缀名给情感专栏列表页添加样式
 function categoryNavStyle() {
     var btn_item = btnWrap.getElementsByTagName("li");
 
