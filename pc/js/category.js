@@ -5,7 +5,7 @@ function categoryNav() {
         var btnLink = document.createElement("a");
 
         // 添加链接
-        // btnLink.href = article[i].link;
+        btnLink.href = "javascript:;";
         btnLink.textContent = article[i].name;
 
         btnLi.appendChild(btnLink);
@@ -110,4 +110,59 @@ function toArtList(content) {
 
     list.appendChild(link);
     categoryWrap.appendChild(list);
+}
+
+// 渲染内容到页面
+function artToPage() {
+
+    for (var i = 0; i < art_info.length; i++) {
+        for (var j = 0; j < art_info[i].list.length; j++) {
+            toArtList(art_info[i].list[j]);
+        }
+    }
+}
+artToPage();
+
+// 获取到左侧
+var artNavList = btnWrap.querySelectorAll("li");
+var artItem = document.querySelector(".category-con li");
+
+
+// 点击左侧导航按钮，右侧内容跟随滑动
+function addNavStyle() {
+    for (var i = 0; i < artNavList.length; i++) {
+        artNavList[i].index = i;
+
+        artNavList[i].onclick = function () {
+            // 向下滚动的距离
+            var scrollHeight = this.index * artItem.offsetHeight * 5;
+
+            clearInterval(window.timer);
+
+            window.timer = setInterval(function () {
+                var speed = (scrollHeight - scroll().top) / 10;
+                speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+                window.scrollTo(0, scroll().top + speed);
+                if (scroll().top == scrollHeight) {
+                    clearInterval(window.timer);
+                }
+            }, 15)
+
+            // 移除所有的class
+            for (var j = 0; j < artNavList.length; j++) {
+                artNavList[j].classList.remove("active");
+            }
+
+            // 点击添加class
+            this.classList.add("active");
+        }
+    }
+}
+addNavStyle();
+
+function scroll() {
+    return {
+        "top": document.body.scrollTop + document.documentElement.scrollTop,
+        "left": document.body.scrollLeft + document.documentElement.scrollLeft
+    }
 }

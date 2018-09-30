@@ -93,46 +93,4 @@
     </footer>
     <script src="/pc/js/common.js"></script>
     <script src="/pc/js/category.js"></script>
-    <script>
-        // 渲染内容到页面
-        function artToPage() {
-
-            for (var i = 0; i < art_info.length; i++) {
-                for (var j = 0; j < art_info[i].list.length; j++) {
-                    toArtList(art_info[i].list[j]);
-                }
-            }
-        }
-        artToPage();
-
-        // 获取到左侧
-        var artNavList = btnWrap.querySelectorAll("li");
-        var artItem = document.querySelector(".category-con li");
-
-
-        // 点击左侧导航按钮，右侧内容跟随滑动
-        function addNavStyle() {
-            for (var i = 0; i < artNavList.length; i++) {
-                artNavList[i].index = i;
-                
-                artNavList[i].onclick = function () {
-                    // 向下滚动的距离
-                    var scrollHeight = this.index * artItem.offsetHeight * 5;
-                    console.log(scrollHeight);
-
-                    clearInterval(window.timer);
-                    window.timer = setInterval(function () {
-                        window.scrollTo(0, scrollHeight);
-                    }, 3000)
-
-
-                    for (var j = 0; j < artNavList.length; j++) {
-                        artNavList[j].classList.remove("active");
-                    }
-                    this.classList.add("active");
-                }
-            }
-        }
-        addNavStyle();
-    </script>
 </body>
