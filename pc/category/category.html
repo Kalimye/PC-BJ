@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/pc/css/category.css">
     <link rel="stylesheet" href="/pc/css/category-00.css">
     <link rel="shortcut icon" href="/pc/images/common/site-icon.png" type="image/x-icon">
+    <script src="/pc/js/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
@@ -106,14 +107,24 @@
 
         // 获取到左侧
         var artNavList = btnWrap.querySelectorAll("li");
+        var artItem = document.querySelector(".category-con li");
+
 
         // 点击左侧导航按钮，右侧内容跟随滑动
         function addNavStyle() {
             for (var i = 0; i < artNavList.length; i++) {
                 artNavList[i].index = i;
+                
                 artNavList[i].onclick = function () {
                     // 向下滚动的距离
-                    window.scrollTo(0, this.index * 1255);
+                    var scrollHeight = this.index * artItem.offsetHeight * 5;
+                    console.log(scrollHeight);
+
+                    clearInterval(window.timer);
+                    window.timer = setInterval(function () {
+                        window.scrollTo(0, scrollHeight);
+                    }, 3000)
+
 
                     for (var j = 0; j < artNavList.length; j++) {
                         artNavList[j].classList.remove("active");
@@ -123,10 +134,5 @@
             }
         }
         addNavStyle();
-
-        // function navFallow() {
-        //     var 
-        //     // switch 
-        // }
     </script>
 </body>
