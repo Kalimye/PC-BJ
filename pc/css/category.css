@@ -2,23 +2,29 @@
     color: #ff5161;
 }
 
-
+.main .wrap{
+    position: relative;
+    width: 1060px;
+}
 
 .category-left {
-    float: left;
+    /* float: left; */
+    position: fixed;
 }
 
 .category-con {
-    float: left;
+    /* float: left; */
     margin-bottom: 80px;
+    margin-left: 160px;
 }
 
 .category-sidebar {
-    float: right;
+    /* float: right; */
+    display: none;
 }
 
 .category-con ul {
-    width: 780px;
+    width: 900px;
 }
 
 .category-con ul li {
@@ -42,7 +48,7 @@
 
 .category-con ul li .con {
     float: right;
-    width: 510px;
+    width: 630px;
 }
 
 .category-con ul li h3 {
@@ -115,4 +121,14 @@
 .category-left ul li:hover a {
     background: #ffa99d;
     color: #fff;
+}
+
+/* 底部样式 */
+footer{
+    position: relative;
+    height: 300px;
+}
+
+.white-block{
+    /* height: 94px; */
 }

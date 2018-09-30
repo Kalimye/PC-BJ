@@ -53,7 +53,7 @@ function articleFun() {
     }
     excellent_con.firstElementChild.classList.add("active");
 }
-articleFun()
+articleFun();
 // 筛选 不显示 全部文章
 // var article_tab = article.filter(function (item) {
 //     return item.name != "全部文章";

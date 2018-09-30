@@ -12,9 +12,14 @@ function categoryNav() {
         btnWrap.appendChild(btnLi);
     }
 }
-categoryNav();
 
-// 根据后缀名给情感专栏列表页添加样式
+// 将侧边导航渲染到页面
+categoryNav();
+btnWrap.firstElementChild.classList.add("active");
+
+
+
+    // 根据后缀名给情感专栏列表页添加样式
 function categoryNavStyle() {
     var btn_item = btnWrap.getElementsByTagName("li");
 
@@ -25,44 +30,46 @@ function categoryNavStyle() {
     pathname = pathname.split('.')[0];
 
     // 根据路径名字进行判断，给li加样式
-
-    switch (pathname) {
-        case 'category-00':
-            btn_item[0].classList.add("active");
-            break;
-        case 'category-01':
-            btn_item[1].classList.add("active");
-            break;
-        case 'category-02':
-            btn_item[2].classList.add("active");
-            break;
-        case 'category-03':
-            btn_item[3].classList.add("active");
-            break;
-        case 'category-04':
-            btn_item[4].classList.add("active");
-            break;
-        case 'category-05':
-            btn_item[5].classList.add("active");
-            break;
-        case 'category-06':
-            btn_item[6].classList.add("active");
-            break;
-        case 'category-07':
-            btn_item[7].classList.add("active");
-            break;
-        default:
-            btn_item[0].classList.add("active");
-            break;
-    }
+    /*
+        switch (pathname) {
+            case 'category-00':
+                btn_item[0].classList.add("active");
+                break;
+            case 'category-01':
+                btn_item[1].classList.add("active");
+                break;
+            case 'category-02':
+                btn_item[2].classList.add("active");
+                break;
+            case 'category-03':
+                btn_item[3].classList.add("active");
+                break;
+            case 'category-04':
+                btn_item[4].classList.add("active");
+                break;
+            case 'category-05':
+                btn_item[5].classList.add("active");
+                break;
+            case 'category-06':
+                btn_item[6].classList.add("active");
+                break;
+            case 'category-07':
+                btn_item[7].classList.add("active");
+                break;
+            default:
+                btn_item[0].classList.add("active");
+                break;
+        }
+    */
 }
-categoryNavStyle();
+// categoryNavStyle();
 
 // 渲染到页面中的格式
 var categoryWrap = document.querySelector(".category-con ul");
 
 function toArtList(content) {
     var list = document.createElement("li");
+    list.id = content.id;
     var link = document.createElement("a");
     link.href = content.href;
     var imgWrap = document.createElement("div");
