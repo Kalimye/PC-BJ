@@ -1,4 +1,5 @@
-var btnWrap = document.querySelector(".category-left ul"); // 获取左侧按钮
+var btnWrap = document.querySelector(".category-left ul");
+// 获取左侧按钮
 function categoryNav() {
     for (var i = 0; i < article.length; i++) {
         var btnLi = document.createElement("li");
@@ -69,7 +70,7 @@ var categoryWrap = document.querySelector(".category-con ul");
 
 function toArtList(content) {
     var list = document.createElement("li");
-    list.id = content.id;
+    // list.id = content.id;
     var link = document.createElement("a");
     link.href = content.href;
     var imgWrap = document.createElement("div");
@@ -114,7 +115,6 @@ function toArtList(content) {
 
 // 渲染内容到页面
 function artToPage() {
-
     for (var i = 0; i < art_info.length; i++) {
         for (var j = 0; j < art_info[i].list.length; j++) {
             toArtList(art_info[i].list[j]);
@@ -159,6 +159,12 @@ function addNavStyle() {
     }
 }
 addNavStyle();
+
+// 右侧滑动，左侧跟着滑动
+function artConScroll() {
+    console.log(window.scrollY);
+}
+artConScroll();
 
 function scroll() {
     return {
