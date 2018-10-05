@@ -160,15 +160,28 @@ function addNavStyle() {
 }
 addNavStyle();
 
-// 右侧滑动，左侧跟着滑动
+// 右侧滑动，左侧导航切换选中
 function artConScroll() {
     console.log(window.scrollY);
 }
-artConScroll();
+// artConScroll();
 
+// 返回高度
 function scroll() {
     return {
         "top": document.body.scrollTop + document.documentElement.scrollTop,
         "left": document.body.scrollLeft + document.documentElement.scrollLeft
     }
+}
+
+// 返回顶部
+
+window.onscroll = function(){
+    if(document.documentElement.scrollTop > window.screen.height){
+        goTop();
+    }
+}
+
+function goTop(){
+    console.log("显示图标");
 }

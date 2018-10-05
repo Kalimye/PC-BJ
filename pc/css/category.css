@@ -133,3 +133,17 @@ footer{
 .white-block{
     /* height: 94px; */
 }
+
+/* 返回顶部 */
+.gotop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+}
+.gotop img{
+    padding-top: 2px;
+}
