@@ -176,12 +176,18 @@ function scroll() {
 
 // 返回顶部
 
-window.onscroll = function(){
-    if(document.documentElement.scrollTop > window.screen.height){
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > window.screen.height) {
         goTop();
     }
 }
 
-function goTop(){
-    console.log("显示图标");
+function goTop() {
+    var gotop = document.querySelector(".gotop");
+    gotop.style.opacity = 1;
+    clearInterval(window.gotopTimer);
+    gotop.onclick = function () {
+        window.gotopTimer = setInterval(function () { document.documentElement.scrollTop = 0; }, 300);
+    }
+    clearInterval(window.gotopTimer);
 }
