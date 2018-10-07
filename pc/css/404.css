@@ -1,0 +1,26 @@
+.main{
+    margin: 0;
+    padding: 0 10%;
+    min-height: 0;
+    height: 100vh;
+    text-align: center;
+    background: #efeff1;
+}
+.main img{
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+.tohome{
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    background: #ffa89e;
+    border-radius: 20px;
+}
