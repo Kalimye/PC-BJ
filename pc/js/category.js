@@ -176,18 +176,17 @@ function scroll() {
 
 // 返回顶部
 
-window.onscroll = function () {
-    if (document.documentElement.scrollTop > window.screen.height) {
-        goTop();
-    }
-}
-
 function goTop() {
     var gotop = document.querySelector(".gotop");
-    gotop.style.opacity = 1;
-    clearInterval(window.gotopTimer);
-    gotop.onclick = function () {
-        window.gotopTimer = setInterval(function () { document.documentElement.scrollTop = 0; }, 300);
+    window.onscroll = function () {
+        if (document.documentElement.scrollTop > window.screen.height) {
+            gotop.style.opacity = 1;
+        } else {
+            gotop.style.opacity = 0;
+        }
     }
-    clearInterval(window.gotopTimer);
+    gotop.onclick = function () {
+        document.documentElement.scrollTop = 0;
+    }
 }
+goTop();
