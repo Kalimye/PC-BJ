@@ -103,7 +103,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="service-block wow fadeIn"  data-wow-delay="0.4s">
+					<div class="service-block wow fadeIn" data-wow-delay="0.4s">
 						<div class="service-head-img">
 							<img src="/pc/images/index/service-img-02.png" alt="服务范围配图">
 						</div>
@@ -328,6 +328,16 @@
 	</script>
 	<script src="/pc/js/common.js"></script>
 	<script src="/pc/js/index.js"></script>
+	<script>
+		// PC端 移动端 跳转
+		var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+		if (is_mobi) {
+			window.location.href = "https://xiaoyuqinggan.com/im/";
+		} else {
+			window.location.href = "https://xiaoyuqinggan.com";
+		}
+	</script>
+
 </body>
 
 </html>
