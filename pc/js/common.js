@@ -61,7 +61,7 @@ var navArray = [{
     {
         name: "情感专栏",
         class: "category",
-        link: "/pc/category/category.html"
+        link: "/pc/category.html"
     },
     {
         name: "权威专家",
@@ -422,4 +422,5 @@ footerQr.querySelector("p").textContent = "小鱼情感微信公众号";
 // 修改底部导航内容
 var footNav = document.querySelector(".footer-nav ul");
 
-footNav.innerHTML = '<li><a href="/pc/about.html">关于小鱼情感</a></li><li><a href="/pc/server.html">咨询客服</a></li><li><a href="/pc/save-love.html">挽回爱情</a></li><li><a href="/pc/marriage.html">挽救婚姻</a></li><li><a href="/pc/category/category-00.html">情感专栏</a></li>'
+footNav.innerHTML = '<li><a href="/pc/about.html">关于小鱼情感</a></li><li><a href="/pc/server.html">咨询客服</a></li><li><a href="/pc/save-love.html">挽回爱情</a></li><li><a href="/pc/marriage.html">挽救婚姻</a></li><li><a href="/pc/category.html">情感专栏</a></li>';
+
