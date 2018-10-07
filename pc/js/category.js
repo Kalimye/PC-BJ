@@ -187,6 +187,11 @@ function goTop() {
     }
     gotop.onclick = function () {
         document.documentElement.scrollTop = 0;
+        // 移除所有的class
+        for (var j = 0; j < artNavList.length; j++) {
+            artNavList[j].classList.remove("active");
+        }
+        artNavList[0].classList.add("active");
     }
 }
 goTop();
