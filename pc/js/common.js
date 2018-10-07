@@ -424,3 +424,9 @@ var footNav = document.querySelector(".footer-nav ul");
 
 footNav.innerHTML = '<li><a href="/pc/about.html">关于小鱼情感</a></li><li><a href="/pc/server.html">咨询客服</a></li><li><a href="/pc/save-love.html">挽回爱情</a></li><li><a href="/pc/marriage.html">挽救婚姻</a></li><li><a href="/pc/category.html">情感专栏</a></li>';
 
+// 根据设备判断跳转到移动端
+
+var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+if (is_mobi) {
+    window.location.href = "https://xiaoyuqinggan.com/im/";
+}
