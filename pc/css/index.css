@@ -99,9 +99,13 @@
 /* 导师团队 */
 .tutor-intro-con ul {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
-
-.tutor-intro-con ul li {
+.tutor-intro-con ul li{
+    float: left;
+}
+.tutor-intro-con ul li .item-wrap{
     position: relative;
     display: inline-block;
     width: 253px;
@@ -123,7 +127,10 @@
     transition: bottom .3s;
     background: #fff;
 }
-
+.tutor-team .advisory-box{
+    display: block;
+    
+}
 /* .tutor-intro-con ul li:hover .tutor-txt {
     bottom: 0;
 } */

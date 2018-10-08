@@ -30,7 +30,7 @@
 function phone() {
     var phone_number = document.querySelectorAll(".phone-number");
     for (var i = 0; i < phone_number.length; i++) {
-        phone_number[i].textContent = 'xxxx-xxx-xxx';
+        phone_number[i].textContent = '4000-130-520';
     }
 }
 phone();
