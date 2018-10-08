@@ -418,6 +418,12 @@ var art_info = [{
 var footerQr = document.querySelector(".footer-top .qrcode-02");
 footerQr.querySelector("p").textContent = "小鱼情感微信公众号";
 
+// 公司名字
+var companyName = document.querySelector(".footer-logo p"); 
+companyName.textContent = "北京小鱼果果科技有限公司";
+
+var copyright = document.querySelector(".copyright");
+copyright.innerHTML = "<p>京ICP备18050673号-1</p><p>北京小鱼果果科技有限公司</p>"
 
 // 修改底部导航内容
 var footNav = document.querySelector(".footer-nav ul");
