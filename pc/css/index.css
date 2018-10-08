@@ -129,6 +129,14 @@
 }
 .tutor-team .advisory-box{
     display: block;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 40px;
+    border-radius: 50px;
+    background: #ff5666;
+    color: #fff;
     
 }
 /* .tutor-intro-con ul li:hover .tutor-txt {
