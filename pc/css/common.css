@@ -68,6 +68,8 @@ header {
 }
 
 .nav-list {
+    float: left;
+    width: 900px;
     display: flex;
     justify-content: center;
 }
@@ -86,7 +88,9 @@ header {
 .nav-list li :hover {
     color: #ff5161;
 }
-
+.weixin{
+    float: right;
+}
 /* footer */
 footer {
     width: 100%;
