@@ -71,7 +71,7 @@ header .wrap{
 
 .nav-list {
     float: left;
-    width: 900px;
+    width: 820px;
     display: flex;
     justify-content: center;
 }
@@ -90,9 +90,9 @@ header .wrap{
 .nav-list li :hover {
     color: #ff5161;
 }
+
 .weixin{
     float: left;
-    width: 160px;
     position: relative;
     display: flex;
     justify-content: left;
@@ -100,12 +100,41 @@ header .wrap{
     height: 94px;
     cursor: pointer;
 }
-.weixin span{
-    padding: 0 22px;
-}
+
 .weixin:hover .qr-wrap{
     display: block;
 }
+
+.weixin img{
+    padding: 0 20px;
+}
+
+.weixin .wx-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weixin .wx-left p span{
+    display: block;
+}
+
+.weixin .wx-left p i{
+    font-style: normal;
+    font-weight: bold;
+    color: #ff5161;
+    font-size: 20px;
+}
+
+.weixin .wx-right{
+    width: 170px;
+}
+
+.weixin .wx-right span{
+    position: relative;
+    top: -5px;
+}
+
 /* 默认隐藏的二维码 */
 .qr-wrap{
     position: absolute;
